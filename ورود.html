@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head><link rel="icon" href="poster_3fb55038-e8f1-4720-8306-181530de6c20.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحه ورود</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000; /* پس‌زمینه مشکی */
+      color: #FFD700; /* رنگ طلایی متن */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #111;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: #FFD700;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      background-color: #222;
+      color: #FFD700;
+    }
+
+    .login-container input::placeholder {
+      color: #FFD70099;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-container button:hover {
+      background-color: #e6c200;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>ورود به سایت</h2>
+    <input type="text" id="name" placeholder="نام خود را وارد کنید">
+    <input type="email" id="email" placeholder="ایمیل خود را وارد کنید">
+    <button onclick="login()">ورود</button>
+  </div>
+
+  <script>
+    function login() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      if (name === "" || email === "") {
+        alert("لطفاً نام و ایمیل را وارد کنید!");
+        return;
+      }
+      // هدایت به صفحه اصلی سایت بعد از ورود موفق
+      alert(`خوش آمدید، ${name}!`);
+      window.location.href = "one.html"; // صفحه مقصد بعد از ورود
+    }
+  </script>
+</body>
+</html>
