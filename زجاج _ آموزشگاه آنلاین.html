@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<title>زجاج | آموزشگاه آنلاین</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#05070d;--card:#0c1222;--line:#1c2a4a;--tx:#e8eefc;--mu:#8a9bc4;--ac:#2f7bff;--ac2:#1a4fd0;--ok:#22c55e;--er:#f87171;--on:#fff}
+:root[data-theme=light]{--bg:#fff7fa;--card:#fff;--line:#f3cddd;--tx:#2a1620;--mu:#8a6475;--ac:#e8407f;--ac2:#c42a66;--ok:#16a34a;--er:#dc2626}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.8;transition:background .3s}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 16px}
+.logo{font-size:1.6rem;font-weight:700;color:var(--ac);cursor:pointer;margin-inline-end:auto}
+main{max-width:1100px;margin:0 auto;padding:20px 14px}
+button,.btn{font:inherit;background:var(--ac);color:var(--on);border:0;border-radius:10px;padding:8px 16px;cursor:pointer}
+button:hover{background:var(--ac2)}button.g{background:transparent;color:var(--tx);border:1px solid var(--line)}button.d{background:var(--er)}button.s{padding:3px 10px;font-size:.85rem}
+input,select,textarea{font:inherit;width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:4px 0 12px}
+label{font-size:.9rem;color:var(--mu)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.cv{height:140px;border-radius:12px;background:linear-gradient(135deg,var(--ac2),var(--ac)) center/cover;margin-bottom:10px}
+.tag{display:inline-block;font-size:.75rem;padding:1px 10px;border-radius:20px;border:1px solid var(--ac);color:var(--ac)}
+.hero{text-align:center;padding:40px 10px}.hero h1{font-size:2.2rem;margin:0;color:var(--ac)}
+.mu{color:var(--mu)}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}.tabs button.on{background:var(--ac);color:var(--on)}.tabs button:not(.on){background:transparent;color:var(--tx);border:1px solid var(--line)}
+.msg{padding:10px 14px;border-radius:10px;margin-bottom:12px;border:1px solid var(--line)}.msg.e{color:var(--er);border-color:var(--er)}.msg.o{color:var(--ok);border-color:var(--ok)}
+.box{border-inline-start:4px solid var(--ac);padding:8px 12px;background:var(--bg);border-radius:8px;margin:8px 0}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:start}
+iframe,video{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
+.nm{cursor:pointer;color:var(--ac);text-decoration:underline}
+.bd{background:var(--er);color:#fff;border-radius:20px;padding:0 8px;font-size:.8rem}
+body{background-image:radial-gradient(60rem 28rem at 85% -8%,color-mix(in srgb,var(--ac) 22%,transparent),transparent)}
+.hero{padding:70px 10px 30px}.hero h1{font-size:3rem;margin:14px 0;background:linear-gradient(90deg,var(--ac),var(--tx));-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:560px;margin:0 auto 24px;font-size:1.1rem}
+.btn-lg{padding:12px 28px;font-size:1.05rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;color:var(--mu)}.stat b{display:block;font-size:1.8rem;color:var(--ac)}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:30px 0}.feat .card{margin:0;text-align:center}.feat i{font-style:normal;font-size:2rem}
+.grid .card{transition:transform .2s,box-shadow .2s}.grid .card:hover{transform:translateY(-4px);box-shadow:0 10px 30px color-mix(in srgb,var(--ac) 25%,transparent)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.auth{display:grid;grid-template-columns:1fr 1fr;max-width:900px;margin:30px auto;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card)}
+.auth .br{background:linear-gradient(160deg,var(--ac2),var(--ac));color:#fff;padding:40px 28px;display:flex;flex-direction:column;justify-content:center}.auth .br h2{font-size:2.4rem;margin:0}.auth .fm{padding:32px 28px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.pw{position:relative}.pw button{position:absolute;inset-inline-end:6px;top:8px;padding:2px 8px;font-size:.8rem}
+.meter{height:5px;border-radius:5px;background:var(--line);margin:-8px 0 12px;overflow:hidden}.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+footer{border-top:1px solid var(--line);text-align:center;padding:24px;color:var(--mu);margin-top:40px}
+.lay{display:grid;grid-template-columns:200px 1fr;gap:16px}.side{display:flex;flex-direction:column;gap:6px}.side button:not(.on){background:transparent;color:var(--tx);border:1px solid var(--line)}
+@media(max-width:700px){.auth,.lay,.two{grid-template-columns:1fr}.auth .br{padding:24px}.hero h1{font-size:2.2rem}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mem={};
+const st={get(k){try{return localStorage.getItem(k)}catch(e){return mem[k]??null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){mem[k]=v}}};
+const ss={get(k){try{return sessionStorage.getItem(k)}catch(e){return mem['s'+k]??null}},set(k,v){try{v==null?sessionStorage.removeItem(k):sessionStorage.setItem(k,v)}catch(e){mem['s'+k]=v}}};
+let DB;try{DB=JSON.parse(st.get('zj_db'))}catch(e){}
+DB=DB||{users:[],courses:[],enr:[],cls:[],nt:[]};
+if(!DB.courses.length){DB.courses=[
+{id:'c1',t:'مبانی برنامه‌نویسی',ty:'offline',p:290000,img:'',d:'دوره آفلاین مقدماتی؛ پس از خرید بلافاصله فعال می‌شود.',v:[]},
+{id:'c2',t:'کلاس آنلاین زبان انگلیسی',ty:'online',p:850000,img:'',d:'کلاس زنده با استاد؛ زمان پس از خرید با اپراتور هماهنگ می‌شود.',v:[]}];save()}
+function save(){st.set('zj_db',JSON.stringify(DB))}
+const uid=()=>Array.from(crypto.getRandomValues(new Uint8Array(6)),b=>b.toString(16).padStart(2,'0')).join('');
+const sha=async s=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))].map(b=>b.toString(16).padStart(2,'0')).join('');
+const OP_NAME='abas begmaz',OP_HASH='f17b71022fb2746f4a91b8c0760af25b01fc39034e07696f4b6d62261d9a49b1';
+let S=null;try{S=JSON.parse(ss.get('zj_s'))}catch(e){}
+let msg=null,tab='db',selU=null,payFor=null,theme=st.get('zj_th')||'dark';
+document.documentElement.dataset.theme=theme;
+const me=()=>S&&S.r==='u'?DB.users.find(u=>u.id===S.id):null;
+const isOp=()=>S&&S.r==='op';
+const cour=id=>DB.courses.find(c=>c.id===id);
+const enrOf=(u,c)=>DB.enr.find(e=>e.u===u&&e.c===c);
+const fa=t=>t?new Date(t).toLocaleString('fa-IR'):'';
+const money=n=>n?Number(n).toLocaleString('fa-IR')+' تومان':'رایگان';
+const safeUrl=u=>{try{const x=new URL(u);return(x.protocol==='https:'||x.protocol==='http:')?x.href:null}catch(e){return null}};
+function readImg(f){return new Promise(r=>{if(!f||!f.size)return r('');const i=new Image,u=URL.createObjectURL(f);i.onload=()=>{const k=Math.min(1,640/i.width),c=document.createElement('canvas');c.width=i.width*k;c.height=i.height*k;c.getContext('2d').drawImage(i,0,0,c.width,c.height);URL.revokeObjectURL(u);r(c.toDataURL('image/jpeg',.8))};i.onerror=()=>r('');i.src=u})}
+function player(url){const u=safeUrl(url);if(!u)return'<p class="mu">لینک ویدیو معتبر نیست</p>';let m;
+if(m=u.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]{11})/))return`<iframe src="https://www.youtube.com/embed/${m[1]}" allowfullscreen></iframe>`;
+if(m=u.match(/aparat\.com\/v\/(\w+)/))return`<iframe src="https://www.aparat.com/video/video/embed/videohash/${m[1]}/vt/frame" allowfullscreen></iframe>`;
+if(/\.(mp4|webm|ogg)(\?|$)/i.test(u))return`<video controls preload="none" src="${esc(u)}"></video>`;
+return`<a class="btn" href="${esc(u)}" target="_blank" rel="noopener noreferrer">باز کردن ویدیو</a>`}
+const cv=c=>`<div class="cv" ${c.img?`style="background-image:url('${esc(c.img)}')"`:''}></div>`;
+const go=h=>{msg=null;location.hash=h;render()};
+const flash=(t,k='e')=>{msg={t,k};render();scrollTo(0,0)};
+const M=()=>msg?`<div class="msg ${msg.k}">${esc(msg.t)}</div>`:'';
+
+function nav(){const n=isOp()?DB.nt.filter(x=>!x.s).length:0,u=me();
+return`<header><span class="logo" data-a="go" data-h="home">زجاج ◆</span>
+<button class="g s" data-a="go" data-h="home">دوره‌ها</button>
+${isOp()?`<button class="s" data-a="go" data-h="op">پنل اپراتور ${n?`<span class="bd">${n}</span>`:''}</button><button class="g s" data-a="out">خروج</button>`
+:u?`<button class="s" data-a="go" data-h="panel">پنل من (${esc(u.n)})</button><button class="g s" data-a="out">خروج</button>`
+:`<button class="s" data-a="go" data-h="login">ورود</button><button class="g s" data-a="go" data-h="register">ثبت‌نام</button>`}
+<button class="g s" data-a="th" title="حالت شب/روز">${theme==='dark'?'☀ روز':'☾ شب'}</button></header>`}
+
+function cards(){return`<div class="grid">${DB.courses.map(c=>`<div class="card">${cv(c)}<span class="tag">${c.ty==='online'?'آنلاین':'آفلاین'}</span>
+<h3>${esc(c.t)}</h3><p class="mu">${esc(c.d).slice(0,90)}</p><div class="row"><b>${money(c.p)}</b><button class="s" style="margin-inline-start:auto" data-a="go" data-h="course-${c.id}">مشاهده</button></div></div>`).join('')||'<p class="mu">هنوز دوره‌ای ثبت نشده.</p>'}</div>`}
+const home0=()=>`<div class="hero"><h1>زجاج</h1><p class="mu">آموزشگاه آنلاین؛ دوره‌های آنلاین و آفلاین با پشتیبانی اپراتور</p></div>${cards()}`;
+
+function courseView(id){const c=cour(id);if(!c)return'<p>دوره پیدا نشد.</p>';const u=me(),e=u&&enrOf(u.id,id);
+let acc='';
+if(e&&c.ty==='offline'||isOp())acc=`<h3>ویدیوها</h3>${c.v.map(v=>`<div class="card"><h4>${esc(v.t)}</h4><p class="mu">${esc(v.d)}</p>${v.img?`<img src="${esc(v.img)}" alt="" style="max-width:260px;border-radius:10px">`:''}${player(v.u)}<p><a href="${esc(safeUrl(v.u)||'#')}" target="_blank" rel="noopener noreferrer" class="mu">باز کردن در تب جدید</a></p></div>`).join('')||'<p class="mu">ویدیویی ثبت نشده.</p>'}`;
+else if(e)acc=`<div class="msg o">خرید شما ثبت شد و برای اپراتور ارسال شد. زمان کلاس آنلاین با شما هماهنگ و در «پنل من» نمایش داده می‌شود.</div>`;
+else if(!u&&!isOp())acc=`<button data-a="go" data-h="login">برای خرید وارد شوید</button>`;
+else if(u)acc=payFor===id?`<div class="card"><p>مبلغ قابل پرداخت: <b>${money(c.p)}</b></p><p class="mu">پرداخت در این نسخه شبیه‌سازی است (برای پرداخت واقعی به درگاه بانکی متصل شود).</p><button data-a="pay" data-id="${id}">تأیید پرداخت</button> <button class="g" data-a="nopay">انصراف</button></div>`:`<button data-a="buy" data-id="${id}">خرید دوره – ${money(c.p)}</button>`;
+return`<button class="g s" data-a="go" data-h="home">← بازگشت</button><div class="card" style="margin-top:12px">${cv(c)}<span class="tag">${c.ty==='online'?'آنلاین (هماهنگی با اپراتور)':'آفلاین (دسترسی فوری)'}</span><h2>${esc(c.t)}</h2><p style="white-space:pre-wrap">${esc(c.d)}</p><b>${money(c.p)}</b></div>${M()}${acc}`}
+
+const authForm0=(k)=>`<div class="card" style="max-width:480px;margin:auto"><h2>${k==='login'?'ورود':'ثبت‌نام'}</h2>${M()}<form data-f="${k}">
+${k==='register'?`<label>نام و نام خانوادگی</label><input name="n" required maxlength="60"><label>سن</label><input name="a" type="number" min="5" max="100" required><label>شماره موبایل</label><input name="m" inputmode="tel" pattern="09\\d{9}" placeholder="09123456789" required><label>ایمیل (اختیاری)</label><input name="e" type="email" maxlength="80"><label>شهر (اختیاری)</label><input name="ci" maxlength="40"><label>رمز عبور (حداقل ۸ کاراکتر)</label><input name="p" type="password" minlength="8" required autocomplete="new-password"><label>تکرار رمز</label><input name="p2" type="password" required autocomplete="new-password">`
+:`<label>شماره موبایل (یا نام اپراتور)</label><input name="m" required autocomplete="username"><label>رمز عبور</label><input name="p" type="password" required autocomplete="current-password">`}
+<button style="width:100%">${k==='login'?'ورود':'ثبت‌نام'}</button></form></div>`;
+
+function panel(){const u=me();if(!u)return authForm('login');
+const my=DB.enr.filter(e=>e.u===u.id),cl=DB.cls.filter(x=>x.u===u.id);
+return`<h2>پنل کاربری</h2>${M()}<div class="card"><b>${esc(u.n)}</b> · سن ${esc(u.a)} · ${esc(u.m)} ${u.e?'· '+esc(u.e):''}</div>
+<h3>باکس‌های کلاس آنلاین</h3>${cl.map(x=>`<div class="box"><b>${esc(cour(x.c)?.t||'')}</b><br>زمان: ${fa(x.tm)}<br><a class="btn s" href="${esc(safeUrl(x.l)||'#')}" target="_blank" rel="noopener noreferrer">ورود به کلاس</a></div>`).join('')||'<p class="mu">فعلاً کلاسی برای شما ثبت نشده.</p>'}
+<h3>دوره‌های من</h3><div class="grid">${my.map(e=>{const c=cour(e.c);return c?`<div class="card">${cv(c)}<b>${esc(c.t)}</b><p class="mu">${c.ty==='online'?(DB.cls.some(x=>x.u===u.id&&x.c===c.id)?'کلاس هماهنگ شد':'در انتظار هماهنگی اپراتور'):'فعال'}</p><button class="s" data-a="go" data-h="course-${c.id}">${c.ty==='offline'?'مشاهده ویدیوها':'جزئیات'}</button></div>`:''}).join('')||'<p class="mu">هنوز دوره‌ای نخریده‌اید.</p>'}</div>`}
+
+function opPanel0(){if(!isOp())return authForm('login');
+const T=[['nt','اعلان‌ها'],['co','دوره‌ها و ویدیوها'],['st','ثبت‌نام‌شدگان']];
+let b='';
+if(tab==='nt')b=DB.nt.slice().reverse().map(x=>{const u=DB.users.find(y=>y.id===x.u),c=cour(x.c);return`<div class="card" style="${x.s?'opacity:.6':''}">خرید دوره آنلاین <b>${esc(c?.t)}</b> توسط <span class="nm" data-a="stu" data-id="${x.u}">${esc(u?.n)}</span> (${esc(u?.m)}) – ${fa(x.tm)} <button class="s g" data-a="seen" data-id="${x.id}">${x.s?'دیده شد':'علامت دیده شد'}</button></div>`}).join('')||'<p class="mu">اعلانی نیست.</p>';
+if(tab==='co')b=`<div class="card"><h3>افزودن دوره</h3><form data-f="course"><label>عنوان</label><input name="t" required><label>نوع</label><select name="ty"><option value="offline">آفلاین (دسترسی فوری)</option><option value="online">آنلاین (هماهنگی با اپراتور)</option></select><label>قیمت (تومان؛ ۰ = رایگان)</label><input name="p" type="number" min="0" value="0"><label>عکس</label><input name="img" type="file" accept="image/*"><label>شرح</label><textarea name="d" rows="3"></textarea><button>ثبت دوره</button></form></div>`+DB.courses.map(c=>`<div class="card"><div class="row"><b>${esc(c.t)}</b><span class="tag">${c.ty==='online'?'آنلاین':'آفلاین'}</span><button class="s d" style="margin-inline-start:auto" data-a="delc" data-id="${c.id}">حذف دوره</button></div>
+${c.v.map((v,i)=>`<div class="box">${esc(v.t)} <button class="s d" data-a="delv" data-id="${c.id}" data-i="${i}">حذف</button></div>`).join('')}
+<form data-f="video" data-id="${c.id}"><h4>افزودن ویدیو</h4><input name="t" placeholder="نام ویدیو" required><input name="u" placeholder="لینک ویدیو (YouTube، آپارات یا mp4)" required><input name="img" type="file" accept="image/*"><textarea name="d" rows="2" placeholder="شرح ویدیو"></textarea><button class="s">افزودن</button></form></div>`).join('');
+if(tab==='st'){b=selU?stuDetail():`<div class="card tw"><table><tr><th>نام</th><th>سن</th><th>موبایل</th><th>ثبت‌نام</th></tr>${DB.users.map(u=>`<tr><td><span class="nm" data-a="stu" data-id="${u.id}">${esc(u.n)}</span></td><td>${esc(u.a)}</td><td>${esc(u.m)}</td><td>${fa(u.tm)}</td></tr>`).join('')||'<tr><td colspan=4 class="mu">کاربری ثبت‌نام نکرده.</td></tr>'}</table></div>`}
+return`<h2>پنل اپراتور – Abas Begmaz</h2><div class="tabs">${T.map(t=>`<button class="${tab===t[0]?'on':''}" data-a="tab" data-id="${t[0]}">${t[1]}</button>`).join('')}</div>${M()}${b}`}
+
+function stuDetail(){const u=DB.users.find(x=>x.id===selU);if(!u)return'';
+const en=DB.enr.filter(e=>e.u===u.id),on=en.filter(e=>cour(e.c)?.ty==='online');
+return`<button class="g s" data-a="back">← فهرست</button><div class="card" style="margin-top:12px"><h3>${esc(u.n)}</h3><p>سن: ${esc(u.a)} · موبایل: ${esc(u.m)} ${u.e?'· '+esc(u.e):''} ${u.ci?'· '+esc(u.ci):''}</p>
+<p>دوره‌ها: ${en.map(e=>esc(cour(e.c)?.t)).join('، ')||'—'}</p></div>
+<div class="card"><h4>ثبت باکس کلاس (زمان و لینک)</h4><form data-f="cls" data-id="${u.id}"><label>دوره</label><select name="c">${(on.length?on:en).map(e=>`<option value="${e.c}">${esc(cour(e.c)?.t)}</option>`).join('')}</select><label>زمان کلاس</label><input name="tm" type="datetime-local" required><label>لینک کلاس</label><input name="l" type="url" placeholder="https://..." required><button>ارسال برای کاربر</button></form></div>
+${DB.cls.filter(x=>x.u===u.id).map(x=>`<div class="box">${esc(cour(x.c)?.t)} – ${fa(x.tm)} – <a href="${esc(safeUrl(x.l)||'#')}" target="_blank" rel="noopener noreferrer">لینک</a> <button class="s d" data-a="delk" data-id="${x.id}">حذف</button></div>`).join('')}`}
+
+function render(){const h=location.hash.slice(1)||'home';let b;
+if(h==='login')b=authForm('login');else if(h==='register')b=authForm('register');
+else if(h==='panel')b=panel();else if(h==='op')b=opPanel();else if(h.startsWith('course-'))b=courseView(h.slice(7));else b=home();
+$('#app').innerHTML=nav()+'<main>'+b+'</main>'+foot()}
+
+const A={
+go:e=>go(e.dataset.h),out:()=>{S=null;ss.set('zj_s',null);selU=null;go('home')},
+th:()=>{theme=theme==='dark'?'light':'dark';st.set('zj_th',theme);document.documentElement.dataset.theme=theme;render()},
+buy:e=>{payFor=e.dataset.id;render()},nopay:()=>{payFor=null;render()},
+pay:e=>{const u=me(),c=cour(e.dataset.id);if(!u||!c||enrOf(u.id,c.id))return;
+DB.enr.push({id:uid(),u:u.id,c:c.id,tm:Date.now()});
+if(c.ty==='online')DB.nt.push({id:uid(),u:u.id,c:c.id,tm:Date.now(),s:0});
+save();payFor=null;flash(c.ty==='online'?'خرید ثبت شد؛ اپراتور برای هماهنگی زمان کلاس پیگیری می‌کند.':'خرید موفق بود؛ ویدیوها فعال شد.','o')},
+tab:e=>{tab=e.dataset.id;selU=null;msg=null;render()},
+stu:e=>{tab='st';selU=e.dataset.id;render()},back:()=>{selU=null;render()},
+seen:e=>{const n=DB.nt.find(x=>x.id===e.dataset.id);if(n){n.s=1;save();render()}},
+delc:e=>{const id=e.dataset.id;DB.courses=DB.courses.filter(c=>c.id!==id);DB.enr=DB.enr.filter(x=>x.c!==id);DB.cls=DB.cls.filter(x=>x.c!==id);DB.nt=DB.nt.filter(x=>x.c!==id);save();render()},
+delv:e=>{cour(e.dataset.id)?.v.splice(+e.dataset.i,1);save();render()},
+delk:e=>{DB.cls=DB.cls.filter(x=>x.id!==e.dataset.id);save();render()}};
+document.addEventListener('click',ev=>{const e=ev.target.closest('[data-a]');if(e&&A[e.dataset.a]){if(isOpOnly(e.dataset.a)&&!isOp())return;A[e.dataset.a](e)}});
+const isOpOnly=a=>['stu','back','seen','delc','delv','delk','tab'].includes(a);
+
+let fails=0;const lockT=()=>+st.get('zj_lock')||0;
+const F={
+async register(f){const d=Object.fromEntries(new FormData(f));
+if(!/^09\d{9}$/.test(d.m))return flash('شماره موبایل معتبر نیست (مثال: 09123456789)');
+if(d.p.length<8)return flash('رمز حداقل ۸ کاراکتر باشد');if(d.p!==d.p2)return flash('رمزها یکسان نیستند');
+if(DB.users.some(u=>u.m===d.m))return flash('این شماره قبلاً ثبت‌نام شده');
+const salt=uid(),u={id:uid(),n:d.n.trim(),a:+d.a,m:d.m,e:d.e,ci:d.ci,s:salt,h:await sha(salt+'$'+d.p),tm:Date.now()};
+DB.users.push(u);save();S={r:'u',id:u.id};ss.set('zj_s',JSON.stringify(S));go('panel')},
+async login(f){const d=Object.fromEntries(new FormData(f));
+if(Date.now()<lockT())return flash('به دلیل تلاش‌های ناموفق، ۶۰ ثانیه صبر کنید');
+const id=d.m.trim().replace(/\s+/g,' ').toLowerCase();let ok=false;
+if(id===OP_NAME){ok=(await sha('zojaj$'+d.p))===OP_HASH;if(ok){S={r:'op'}}}
+else{const u=DB.users.find(x=>x.m===d.m.trim());if(u&&(await sha(u.s+'$'+d.p))===u.h){ok=true;S={r:'u',id:u.id}}}
+if(!ok){if(++fails>=5){fails=0;st.set('zj_lock',Date.now()+60000)}return flash('نام کاربری یا رمز اشتباه است')}
+fails=0;ss.set('zj_s',JSON.stringify(S));go(S.r==='op'?'op':'panel')},
+async course(f){if(!isOp())return;const d=Object.fromEntries(new FormData(f));
+DB.courses.push({id:uid(),t:d.t.trim(),ty:d.ty,p:Math.max(0,+d.p||0),d:d.d,img:await readImg(d.img),v:[]});save();flash('دوره ثبت شد','o')},
+async video(f){if(!isOp())return;const d=Object.fromEntries(new FormData(f)),c=cour(f.dataset.id);
+if(!safeUrl(d.u))return flash('لینک ویدیو معتبر نیست');
+c.v.push({t:d.t.trim(),u:safeUrl(d.u),d:d.d,img:await readImg(d.img)});save();flash('ویدیو افزوده شد','o')},
+async cls(f){if(!isOp())return;const d=Object.fromEntries(new FormData(f));
+if(!safeUrl(d.l))return flash('لینک معتبر نیست');
+DB.cls.push({id:uid(),u:f.dataset.id,c:d.c,tm:new Date(d.tm).getTime(),l:safeUrl(d.l)});save();flash('باکس کلاس برای کاربر ثبت شد','o')}};
+document.addEventListener('submit',ev=>{ev.preventDefault();const f=ev.target;if(F[f.dataset.f])F[f.dataset.f](f)});
+let q='',flt='all',ptab='ov';
+const foot=()=>`<footer>© زجاج – آموزشگاه آنلاین · پشتیبانی توسط اپراتور</footer>`;
+const gridHTML=()=>{const L=DB.courses.filter(c=>(flt==='all'||c.ty===flt)&&(c.t+' '+c.d).toLowerCase().includes(q.toLowerCase()));return`<div class="grid">${L.map(c=>`<div class="card">${cv(c)}<span class="tag">${c.ty==='online'?'آنلاین':'آفلاین'}</span><h3>${esc(c.t)}</h3><p class="mu">${esc(c.d).slice(0,90)}</p><div class="row"><b>${money(c.p)}</b><button class="s" style="margin-inline-start:auto" data-a="go" data-h="course-${c.id}">مشاهده</button></div></div>`).join('')||'<p class="mu">موردی پیدا نشد.</p>'}</div>`};
+function home(){const vs=DB.courses.reduce((n,c)=>n+c.v.length,0);
+return`<section class="hero"><span class="tag">آموزشگاه آنلاین زجاج</span><h1>یادگیری را از امروز شروع کن</h1><p class="mu">دوره‌های آنلاین با کلاس زنده و دوره‌های آفلاین با دسترسی فوری، همراه با پشتیبانی اپراتور.</p><div class="row" style="justify-content:center"><button class="btn-lg" data-a="go" data-h="register">ثبت‌نام</button><button class="g btn-lg" data-a="sc">مشاهده دوره‌ها</button></div></section>
+<div class="stats"><div class="stat"><b>${DB.courses.length}</b>دوره</div><div class="stat"><b>${vs}</b>ویدیوی آموزشی</div><div class="stat"><b>${DB.users.length}</b>دانشجو</div><div class="stat"><b>۲۴/۷</b>پشتیبانی</div></div>
+<div class="feat"><div class="card"><i>🎬</i><h4>دوره آفلاین</h4><p class="mu">بعد از خرید، فوراً فعال می‌شود.</p></div><div class="card"><i>👨‍🏫</i><h4>کلاس آنلاین زنده</h4><p class="mu">زمان و لینک کلاس را اپراتور برای شما ثبت می‌کند.</p></div><div class="card"><i>🔒</i><h4>امنیت بالا</h4><p class="mu">رمزها رمزنگاری و حساب‌ها محافظت می‌شوند.</p></div><div class="card"><i>💬</i><h4>پشتیبانی اپراتور</h4><p class="mu">پیگیری مستقیم خرید و هماهنگی کلاس.</p></div></div>
+<h2>دوره‌های آموزشی</h2><input id="q" placeholder="جستجوی دوره..." value="${esc(q)}"><div class="chips">${[['all','همه'],['online','آنلاین'],['offline','آفلاین']].map(([k,t])=>`<button class="s ${flt===k?'':'g'}" data-a="flt" data-id="${k}">${t}</button>`).join('')}</div><div id="grid">${gridHTML()}</div>`}
+function authForm(k){const L=k==='login',pw=n=>`<div class="pw"><input name="${n}" type="password" required ${n==='p'&&!L?'minlength="8"':''} autocomplete="${L?'current-password':'new-password'}"><button type="button" class="g" data-a="eye">👁</button></div>`;
+return`<div class="auth"><div class="br"><h2>زجاج ◆</h2><p>${L?'خوش آمدید! وارد حساب خود شوید و یادگیری را ادامه دهید.':'با ساخت حساب، به دوره‌های آنلاین و آفلاین دسترسی پیدا کنید.'}</p><p>✓ دوره‌های آفلاین با دسترسی فوری<br>✓ کلاس آنلاین با پشتیبانی اپراتور<br>✓ پنل شخصی برای پیگیری</p></div>
+<div class="fm"><h2>${L?'ورود به حساب':'ساخت حساب جدید'}</h2>${M()}<form data-f="${k}">${L?`<label>شماره موبایل</label><input name="m" required autocomplete="username"><label>رمز عبور</label>${pw('p')}`:`<div class="two"><div><label>نام و نام خانوادگی</label><input name="n" required maxlength="60"></div><div><label>سن</label><input name="a" type="number" min="5" max="100" required></div><div><label>شماره موبایل</label><input name="m" inputmode="tel" pattern="09\\d{9}" placeholder="09123456789" required></div><div><label>ایمیل (اختیاری)</label><input name="e" type="email" maxlength="80"></div><div><label>شهر (اختیاری)</label><input name="ci" maxlength="40"></div><div><label>رمز عبور (حداقل ۸ کاراکتر)</label>${pw('p')}<div class="meter"><i></i></div></div></div><label>تکرار رمز عبور</label>${pw('p2')}<label><input type="checkbox" required style="width:auto;margin:0 0 0 6px">قوانین و شرایط استفاده را می‌پذیرم</label><br><br>`}<button style="width:100%">${L?'ورود':'ثبت‌نام'}</button></form>
+<p class="mu">${L?'حساب ندارید؟ <span class="nm" data-a="go" data-h="register">ثبت‌نام کنید</span>':'حساب دارید؟ <span class="nm" data-a="go" data-h="login">وارد شوید</span>'}</p></div></div>`}
+function panel(){const u=me();if(!u)return authForm('login');
+const my=DB.enr.filter(e=>e.u===u.id),cl=DB.cls.filter(x=>x.u===u.id).sort((a,b)=>a.tm-b.tm),nx=cl.find(x=>x.tm>Date.now());
+const T=[['ov','نمای کلی'],['mc','دوره‌های من'],['cl','کلاس‌های آنلاین'],['pr','پروفایل و امنیت']];
+const bx=x=>`<div class="box"><b>${esc(cour(x.c)?.t||'')}</b><br>زمان: ${fa(x.tm)}<br><a class="btn s" href="${esc(safeUrl(x.l)||'#')}" target="_blank" rel="noopener noreferrer">ورود به کلاس</a></div>`;
+let b;
+if(ptab==='ov')b=`<div class="stats"><div class="stat"><b>${my.length}</b>دوره من</div><div class="stat"><b>${cl.length}</b>کلاس ثبت‌شده</div><div class="stat"><b>${my.filter(e=>cour(e.c)?.ty==='online'&&!cl.some(x=>x.c===e.c)).length}</b>در انتظار هماهنگی</div></div><h3>کلاس بعدی</h3>${nx?bx(nx):'<p class="mu">کلاس پیش‌رویی ندارید.</p>'}`;
+else if(ptab==='mc')b=`<div class="grid">${my.map(e=>{const c=cour(e.c);return c?`<div class="card">${cv(c)}<b>${esc(c.t)}</b><p class="mu">${c.ty==='online'?(cl.some(x=>x.c===c.id)?'کلاس هماهنگ شد':'در انتظار هماهنگی اپراتور'):'فعال'}</p><button class="s" data-a="go" data-h="course-${c.id}">${c.ty==='offline'?'مشاهده ویدیوها':'جزئیات'}</button></div>`:''}).join('')||'<p class="mu">هنوز دوره‌ای نخریده‌اید.</p>'}</div>`;
+else if(ptab==='cl')b=cl.map(bx).join('')||'<p class="mu">فعلاً کلاسی برای شما ثبت نشده.</p>';
+else b=`<div class="card"><h3>ویرایش اطلاعات</h3><form data-f="prof"><div class="two"><div><label>نام</label><input name="n" value="${esc(u.n)}" required></div><div><label>سن</label><input name="a" type="number" min="5" max="100" value="${esc(u.a)}" required></div><div><label>ایمیل</label><input name="e" type="email" value="${esc(u.e)}"></div><div><label>شهر</label><input name="ci" value="${esc(u.ci)}"></div></div><button>ذخیره</button></form></div><div class="card"><h3>تغییر رمز عبور</h3><form data-f="pwd"><label>رمز فعلی</label><input name="o" type="password" required><label>رمز جدید (حداقل ۸ کاراکتر)</label><input name="p" type="password" minlength="8" required><button>تغییر رمز</button></form></div>`;
+return`<h2>سلام ${esc(u.n)} 👋</h2>${M()}<div class="lay"><div class="side">${T.map(t=>`<button class="${ptab===t[0]?'on':''}" data-a="ptab" data-id="${t[0]}">${t[1]}</button>`).join('')}</div><div>${b}</div></div>`}
+function opPanel(){if(!isOp())return authForm('login');
+const h=opPanel0().replace('<div class="tabs">',`<div class="tabs"><button class="${tab==='db'?'on':''}" data-a="tab" data-id="db">داشبورد</button>`);if(tab!=='db')return h;
+const rev=DB.enr.reduce((n,e)=>n+(cour(e.c)?.p||0),0),pend=DB.enr.filter(e=>cour(e.c)?.ty==='online'&&!DB.cls.some(x=>x.u===e.u&&x.c===e.c)),nm=id=>DB.users.find(u=>u.id===id);
+return h+`<div class="stats"><div class="stat"><b>${DB.users.length}</b>ثبت‌نام‌شده</div><div class="stat"><b>${DB.courses.length}</b>دوره</div><div class="stat"><b>${DB.enr.length}</b>خرید</div><div class="stat"><b>${rev.toLocaleString('fa-IR')}</b>فروش (تومان)</div><div class="stat"><b>${pend.length}</b>در انتظار هماهنگی</div></div>
+<h3>در انتظار هماهنگی کلاس</h3>${pend.map(e=>`<div class="box"><span class="nm" data-a="stu" data-id="${e.u}">${esc(nm(e.u)?.n)}</span> – ${esc(cour(e.c)?.t)}</div>`).join('')||'<p class="mu">همه هماهنگ شده‌اند.</p>'}
+<h3>آخرین خریدها</h3><div class="card tw"><table><tr><th>کاربر</th><th>دوره</th><th>زمان</th></tr>${DB.enr.slice(-8).reverse().map(e=>`<tr><td>${esc(nm(e.u)?.n)}</td><td>${esc(cour(e.c)?.t)}</td><td>${fa(e.tm)}</td></tr>`).join('')||'<tr><td colspan=3 class="mu">خریدی ثبت نشده.</td></tr>'}</table></div>`}
+Object.assign(A,{sc:()=>document.getElementById('grid')?.scrollIntoView({behavior:'smooth'}),flt:e=>{flt=e.dataset.id;render()},ptab:e=>{ptab=e.dataset.id;msg=null;render()},eye:e=>{const i=e.parentNode.querySelector('input');i.type=i.type==='password'?'text':'password'}});
+Object.assign(F,{async prof(f){const u=me(),d=Object.fromEntries(new FormData(f));if(!u)return;Object.assign(u,{n:d.n.trim(),a:+d.a,e:d.e,ci:d.ci});save();flash('اطلاعات ذخیره شد','o')},
+async pwd(f){const u=me(),d=Object.fromEntries(new FormData(f));if(!u)return;if((await sha(u.s+'$'+d.o))!==u.h)return flash('رمز فعلی اشتباه است');if(d.p.length<8)return flash('رمز جدید حداقل ۸ کاراکتر باشد');u.s=uid();u.h=await sha(u.s+'$'+d.p);save();flash('رمز با موفقیت تغییر کرد','o')}});
+document.addEventListener('input',ev=>{const t=ev.target;if(t.id==='q'){q=t.value;$('#grid').innerHTML=gridHTML()}
+if(t.name==='p'&&t.form?.dataset.f==='register'){const v=t.value;let s=0;if(v.length>=8)s++;if(/[A-Z]/.test(v)&&/[a-z]/.test(v))s++;if(/\d/.test(v))s++;if(/\W/.test(v))s++;const m=t.form.querySelector('.meter i');if(m)m.style.width=s*25+'%'}});
+addEventListener('hashchange',()=>{msg=null;render()});
+render();
+</script>
+</body>
+</html>
